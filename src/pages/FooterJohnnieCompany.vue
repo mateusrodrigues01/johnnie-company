@@ -9,13 +9,7 @@ div.footerr.text-white.q-pt-xl.q-px-xl.gt-sm
           .col
             .text-h6 Johnnie Company
             q-item-label.text-body1
-              | Tranformando números em dinheiro <br/><br/>
-
-        //- .row.q-mt-xl
-          .col-auto.q-mr-md
-            q-item-label.text-body1.text-bold Atendimento ao cliente:
-            q-item-label.text-body1 - Segunda à Sexta, das 9h às 18h <br/>
-            q-item-label.text-body1 - Sábado, das 9h às 15h
+              | Tranformando números em dinheiro! <br/><br/>
 
         .row.q-mt-xl
           .col-auto

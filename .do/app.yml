@@ -8,7 +8,7 @@ domains:
 name: johnnie-company
 region: nyc
 static_sites:
-- build_command: pnpm build
+- build_command: npm build
   environment_slug: node-js
   github:
     branch: main
