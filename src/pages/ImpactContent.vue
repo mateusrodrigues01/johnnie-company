@@ -35,7 +35,7 @@ export default defineComponent({
 <style lang="sass" scoped>
 .site-header
   // background: url(../images/marketing/marketing2.jpg) 100%
-  background: url(../images/marketing/marketing1.jpg) 50%
+  background: url(../images/marketing/marketing2.jpeg) 50%
   background-size: cover
   padding-bottom: 120px
   position: relative

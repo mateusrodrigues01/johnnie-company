@@ -2,6 +2,10 @@
 div.footerr.text-white.q-pt-xl.q-px-xl.gt-sm
   div.container
     .row
+
+      //------------------------
+      //-- COLUNA DA ESQUERDA --
+      //------------------------
       .col
         .row.items-center
           .col-auto
@@ -15,45 +19,42 @@ div.footerr.text-white.q-pt-xl.q-px-xl.gt-sm
           .col-auto
             img.lets-go(src="images/letsgo.jpeg", alt="")
 
-        q-item-label.text-body1.q-mt-xl.text-bold Entre em contato:
-        .row.q-mt-md
+      //-------------------------
+      //--- COLUNA DA DIREITA ---
+      //-------------------------
+      .col
+        .text-h4.text-bold.text-center Não perca mais tempo e entre<br/> em contato agora!
+
+        .row.justify-center.q-mt-xl
           .col-auto
-            .row
-              .text-subtitle1 WhatsApp 1
-            .row
-              a.remove-decoration-links-btn(href="https://wa.me/55169997855085?text=Olá,%20quero%20saber%20mais%20sobre%20o%20tráfego%20pago%20da%20Johnnie%20Company.%20Obrigado%20e%20fico%20no%20aguardo!" target="_blank")
+            .text-subtitle1.text-center Bora chamar no Zap
+            a.remove-decoration-links-btn(href="https://wa.me/55169997855085?text=Olá,%20quero%20saber%20mais%20sobre%20o%20tráfego%20pago%20da%20Johnnie%20Company.%20Obrigado%20e%20fico%20no%20aguardo!" target="_blank")
+              q-btn.q-py-md(icon="fab fa-whatsapp" color='white', text-color="green" label='(16) 99785-5085', @click='onClick')
 
-                q-btn.q-py-md(icon="fab fa-whatsapp" color='white', text-color="green" label='(16) 99785-5085', @click='onClick')
-          .col.q-ml-lg
-            .row
-              .text-subtitle1 WhatsApp 2
-            .row
-              a.remove-decoration-links-btn(href="https://wa.me/5516996097259?text=Olá,%20quero%20saber%20mais%20sobre%20o%20tráfego%20pago%20da%20Johnnie%20Company.%20Obrigado%20e%20fico%20no%20aguardo!" target="_blank")
-                q-btn.q-py-md(icon="fab fa-whatsapp" color='white', text-color="green" label='(16) 99609-7259', @click='onClick')
+          .col-auto.q-ml-xl
+            .text-subtitle1.text-center Preciso disso agora
+            a.remove-decoration-links-btn(href="https://wa.me/5516996097259?text=Olá,%20quero%20saber%20mais%20sobre%20o%20tráfego%20pago%20da%20Johnnie%20Company.%20Obrigado%20e%20fico%20no%20aguardo!" target="_blank")
+              q-btn.q-py-md(icon="fab fa-whatsapp" color='white', text-color="green" label='(16) 99609-7259', @click='onClick')
 
-        .row.q-my-md
+
+        q-item-label.text-body1.text-center.q-mt-xl.text-bold Siga nossas Redes Sociais
+
+
+        .row.justify-center.q-mt-md
           .col-auto
             a.remove-decoration-links(href="https://www.facebook.com/profile.php?id=100078393303513" target="_blank")
-              q-icon(name='fab fa-facebook-square' size="sm")
+              q-icon(name='fab fa-facebook-square' size="md")
 
           .col-auto.q-mx-md
             a.remove-decoration-links(href="https://www.instagram.com/pwaconsorcios/" target="_blank")
-              q-icon(name='fab fa-instagram' size="sm")
+              q-icon(name='fab fa-instagram' size="md")
 
           .col-auto
             a.remove-decoration-links(href="https://www.linkedin.com/company/pwa-cons%C3%B3rcios/" target="_blank")
-              q-icon(name='fab fa-linkedin' size="sm")
+              q-icon(name='fab fa-linkedin' size="md")
 
-      .col
-        div.mapouter
-          div.gmap_canvas
-            iframe(
-              width="100%" height="450"
-              id="gmap_canvas"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3709.5272187967535!2d-48.366298784952406!3d-21.604370185689405!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94b91fd15ebb5da3%3A0x2af973db7a9b4235!2sR.%20Jos%C3%A9%20Bonif%C3%A1cio%2C%201181%20-%20Centro%2C%20Mat%C3%A3o%20-%20SP%2C%2015990-040!5e0!3m2!1spt-BR!2sbr!4v1665027279244!5m2!1spt-BR!2sbr"
+        q-item-label.text-h5.text-center.q-mt-xl.text-bold Estamos te esperando. Vem!
 
-              frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
-            )
     q-separator.q-mt-xl(style="background: #ccc")
 
     .row.justify-center.items-center.q-py-xl

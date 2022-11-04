@@ -4,6 +4,9 @@ const routes = [
     component: () => import('layouts/MainLayout.vue'),
     children: [
       { path: '', component: () => import('pages/IndexPage.vue') },
+      { path: 'google-ads', component: () => import('pages/GoogleAds.vue') },
+      { path: 'meta-ads', component: () => import('pages/MetaAds.vue') },
+      { path: 'develop-web', component: () => import('pages/DevelopWeb.vue') },
     ],
   },
 

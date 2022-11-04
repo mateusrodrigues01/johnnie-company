@@ -26,11 +26,8 @@ q-layout(view="hHr Lpr lFf" style="max-width: 1440px; margin: auto;")
     :breakpoint="500"
     class="drawer-content"
   )
-    .row.items-center
-      .col.q-mt-md.q-pl-xl.q-pt-lg
-        img(src="/images/johnnie-logo.png" style="max-height: 90px")
-
-      .col-auto.q-pr-lg
+    div.q-pa-lg
+      .row.justify-end
         q-btn(
           outline
           round
@@ -39,59 +36,67 @@ q-layout(view="hHr Lpr lFf" style="max-width: 1440px; margin: auto;")
           icon='close',
           @click="rightDrawerOpen = !rightDrawerOpen")
 
-    div.q-px-xl.q-pt-lg
-      .row
-        .text-body1.text-weight-light.text-grey-8
-          | Nossos serviços são pensados com o coração para que você consiga ir além dos seus sonhos. <br/><br/>
-          | Venha tomar um café conosco, teremos o prazer de mostrar as melhores condições para seus sonhos se concretizarem!
-
-      .row.q-mt-lg
+      .row.items-center
         .col-auto
-          q-icon(name='bi-telephone' color="grey-8")
-        .col.q-ml-md
-          a.remove-decoration-links(href="tel:+551620161208")
-            .text-body2.text-weight-light.text-grey-8 (16) 2016-1208
+          img(src="/images/johnnie-logo.png" style="max-height: 70px")
+        .col
+          .text-h6.text-bold.text-grey-9 Johnnie Company
 
-      .row.q-mt-sm
-        .col-auto
-          q-icon(name='bi-whatsapp' color="grey-8")
-        .col.q-ml-md
-          a.remove-decoration-links(href="https://api.whatsapp.com/send?phone=5516997041721" target="_blank")
-            .text-body2.text-weight-light.text-grey-8 (16) 99704-1721 (WhatsApp)
+      div.q-pt-lg
+        .row
+          .text-body1.text-weight-light.text-grey-8
+            | Nossos serviços são pensados com o coração para que você consiga ir além dos seus sonhos. <br/><br/>
+            | Venha tomar um café conosco, teremos o prazer de mostrar as melhores condições para seus sonhos se concretizarem!
 
-      .row.q-mt-sm
-        .col-auto
-          q-icon(name='bi-geo-alt' color="grey-8")
-        .col.q-ml-md
-          .text-body2.text-weight-light.text-grey-8 Rua José Bonifácio, 1181A <br/> Centro, Matão-SP
+        .row.q-mt-lg
+          .col-auto
+            q-icon(name='bi-whatsapp' color="grey-8")
+          .col.q-ml-md
+            a.remove-decoration-links(href="https://wa.me/55169997855085?text=Olá,%20quero%20saber%20mais%20sobre%20o%20tráfego%20pago%20da%20Johnnie%20Company.%20Obrigado%20e%20fico%20no%20aguardo!" target="_blank")
+              .text-body2.text-weight-light.text-grey-8 (16) 99785-5085 (Bora chamar no Zap)
 
-      .row.q-mt-sm
-        .col-auto
-          q-icon(name='bi-clock' color="grey-8")
-        .col.q-ml-md
-          .text-body2.text-weight-light.text-grey-8 Seg - Sex: 09h - 18h; <br/> Sáb: 09h - 15h;
+        .row.q-mt-sm
+          .col-auto
+            q-icon(name='bi-whatsapp' color="grey-8")
+          .col.q-ml-md
+            a.remove-decoration-links(href="https://wa.me/5516996097259?text=Olá,%20quero%20saber%20mais%20sobre%20o%20tráfego%20pago%20da%20Johnnie%20Company.%20Obrigado%20e%20fico%20no%20aguardo!" target="_blank")
+              .text-body2.text-weight-light.text-grey-8 (16) 99609-7259 (Preciso disso agora)
 
-      q-separator.q-my-lg
+        //- .row.q-mt-sm
+          .col-auto
+            q-icon(name='bi-geo-alt' color="grey-8")
+          .col.q-ml-md
+            .text-body2.text-weight-light.text-grey-8 Rua José Bonifácio, 1181A <br/> Centro, Matão-SP
 
-      .row
-        .text-body2.text-weight-light Siga-nos
+        .row.q-mt-sm
+          .col-auto
+            q-icon(name='bi-clock' color="grey-8")
+          .col.q-ml-md
+            .text-body2.text-weight-light.text-grey-8 Seg - Sex: 08h - 18h; <br/> Sáb: 08h - 12h;
 
-      .row.q-mb-md.q-mt-md
-        .col-auto
-          a.remove-decoration-links(href="https://www.facebook.com/profile.php?id=100078393303513" target="_blank")
-            q-icon(name='fab fa-facebook-square' size="sm")
+        q-separator.q-my-lg
 
-        .col-auto.q-mx-md
-          a.remove-decoration-links(href="https://www.instagram.com/pwaconsorcios/" target="_blank")
-            q-icon(name='fab fa-instagram' size="sm")
+        .row
+          .text-body2.text-weight-light Siga-nos
 
-        .col-auto
-            a.remove-decoration-links(href="https://www.linkedin.com/company/pwa-cons%C3%B3rcios/" target="_blank")
-              q-icon(name='fab fa-linkedin' size="sm")
+        .row.q-mb-md.q-mt-md
+          .col-auto
+            a.remove-decoration-links(href="https://www.facebook.com/profile.php?id=100078393303513" target="_blank")
+              q-icon(name='fab fa-facebook-square' size="sm")
 
-    .row.q-mt-xl
-      .col.bg-primary.q-pa-sm
+          .col-auto.q-mx-md
+            a.remove-decoration-links(href="https://www.instagram.com/pwaconsorcios/" target="_blank")
+              q-icon(name='fab fa-instagram' size="sm")
+
+          .col-auto
+              a.remove-decoration-links(href="https://www.linkedin.com/company/pwa-cons%C3%B3rcios/" target="_blank")
+                q-icon(name='fab fa-linkedin' size="sm")
+
+    .row.q-mt-xl.q-pa-sm.items-center.bg-primary
+      .col-auto
         img.q-ml-lg(src="/images/johnnie-logo.png" style="max-height: 60px")
+      .col
+        .text-body1.text-bold Tranformando números em dinheiro!
 
   q-page-container
     router-view
@@ -133,4 +138,13 @@ export default defineComponent({
   max-height: 72px
   @media screen and (max-width: $breakpoint-xs)
     height: 60px
+
+.remove-decoration-links
+  text-decoration: none
+  color: $grey-9
+
+.remove-decoration-links:hover
+  text-decoration: underline
+  cursor: pointer
+
 </style>

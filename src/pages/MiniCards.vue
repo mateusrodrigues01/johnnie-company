@@ -3,32 +3,37 @@
 div.q-pb-xl(style="padding-top: 100px")
   .row.justify-center.q-px-xl
     .col-auto
-      q-card.mini-card.shadow-6
+      q-card.mini-card.shadow-6.cursor-pointer(v-ripple @click="$router.push('google-ads')")
         q-card-section
           img.change-color(src="icons/google-ads-white.svg" style="width:50px")
         q-card-section
-          .text-h6.text-bold.q-mt-md Links Patrocinados <br/>Google Ads
+          .text-h6.text-bold Links Patrocinados <br/>Google Ads
         q-card-section
           .text-body1.text-weight-light Seja encontrado por quem realmente está buscando pelo seus produtos ou serviços.
+        q-card-actions(align="right")
+          .text-body1.text-bold Saber mais!
 
     .col-auto.q-mx-lg
-      q-card.mini-card.shadow-6
+      q-card.mini-card.shadow-6.cursor-pointer(v-ripple @click="$router.push('meta-ads')")
         q-card-section
           img.change-color(src="icons/meta.svg" style="width:50px")
         q-card-section
           .text-h6.text-bold Facebook Ads <br/>& Instagram Ads
         q-card-section
           .text-body1.text-weight-light Promova seus posts. Conquiste mais fãs. Alcance milhares de potenciais clientes!
+        q-card-actions(align="right")
+          .text-body1.text-bold Conhecer!
 
     .col-auto
-      q-card.mini-card.shadow-6
+      q-card.mini-card.shadow-6.cursor-pointer(v-ripple @click="$router.push('develop-web')")
         q-card-section
-          //- img(src="icons/laptop.png")
           q-icon.change-color(name='bi-laptop' size="30px" color="white")
         q-card-section
           .text-h6.text-bold Desenvolvimento de <br/> Websites
         q-card-section
           .text-body1.text-weight-light Sua empresa merece um site profissional. E que converta visitantes em vendas.
+        q-card-actions(align="right")
+          .text-body1.text-bold Bora pra cima!
 
 </template>
 
