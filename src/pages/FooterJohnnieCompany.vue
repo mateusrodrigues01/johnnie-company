@@ -36,9 +36,7 @@ div.footerr.text-white.q-pt-xl.q-px-xl.gt-sm
             a.remove-decoration-links-btn(href="https://wa.me/5516996097259?text=Olá,%20quero%20saber%20mais%20sobre%20o%20tráfego%20pago%20da%20Johnnie%20Company.%20Obrigado%20e%20fico%20no%20aguardo!" target="_blank")
               q-btn.q-py-md(icon="fab fa-whatsapp" color='white', text-color="green" label='(16) 99609-7259', @click='onClick')
 
-
         q-item-label.text-body1.text-center.q-mt-xl.text-bold Siga nossas Redes Sociais
-
 
         .row.justify-center.q-mt-md
           .col-auto
