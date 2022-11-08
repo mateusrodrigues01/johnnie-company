@@ -11,6 +11,8 @@ q-page.teste
 
   FocusOnBusiness
 
+  HowItWorks
+
   WorldOfPossibilities
 
   EraJurassic
@@ -27,6 +29,7 @@ import FeaturesContent from 'src/pages/FeaturesContent.vue';
 import MiniCards from 'src/pages/MiniCards.vue';
 import DifferentResults from 'src/pages/DifferentResults.vue';
 import FocusOnBusiness from 'src/pages/FocusOnBusiness.vue';
+import HowItWorks from 'src/pages/HowItWorks.vue';
 import WorldOfPossibilities from 'src/pages/WorldOfPossibilities.vue';
 import EraJurassic from 'src/pages/EraJurassic.vue';
 import FooterJohnnieCompany from 'src/pages/FooterJohnnieCompany.vue';
@@ -39,6 +42,7 @@ export default defineComponent({
     MiniCards,
     DifferentResults,
     FocusOnBusiness,
+    HowItWorks,
     WorldOfPossibilities,
     EraJurassic,
     FooterJohnnieCompany,

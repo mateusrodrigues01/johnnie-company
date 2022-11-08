@@ -38,13 +38,12 @@ div.q-pb-xl(style="padding-top: 100px")
 </template>
 
 <script>
-import { defineComponent, ref } from 'vue';
+import { defineComponent } from 'vue';
 
 export default defineComponent({
   name: 'PageIndex',
   setup() {
     return {
-      slide: ref('style'),
     };
   },
   methods: {
