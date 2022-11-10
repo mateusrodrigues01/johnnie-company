@@ -7,12 +7,17 @@ div.features-content
       .text-h4.title.text-bold Agência digital que te
       .text-h4.title.text-bold ajuda ir mais longe
       .text-h6.text-weight-light.title.q-mt-lg Somos uma equipe dinâmica de pessoas <br/>  criativas, inovação e especialista em marketing.
+      .text-h6.text-weight-light.title.q-mt-md Aperte o Play ao lado e confira você mesmo! <span><i class="fas fa-circle-play"></i></span>
       .row.q-mt-lg
         img(src="images/rocket.png" style="max-width: 250px")
 
     .col
       img.img-carousel(src="images/notebook.png", alt="")
-      q-carousel.carousel(
+      img.bi-gif(src="videos/bi.gif", alt="")
+      //- video(width="582" height="364" controls autoplay)
+      //-   source(src="videos/johnnievideo.mp4" type="video/mp4")
+      //-   source(src="videos/johnnievideo.ogv" type="video/ogg")
+      //- q-carousel.carousel(
         v-model="slide"
         transition-prev="scale"
         transition-next="scale"
@@ -25,7 +30,7 @@ div.features-content
         :autoplay="7500"
         arrows
         class="bg-primary text-white shadow-1 rounded-borders"
-      )
+      //- )
 
         //- q-carousel-slide.column.no-wrap.flex-center.no-padding(
         //-   name="style"
@@ -83,8 +88,14 @@ export default defineComponent({
 .img-carousel
   position: absolute
   max-width: 800px
-  margin-top: -50px
+  margin-top: -142px
   margin-left: -120px
+
+.bi-gif
+  max-width: 582px
+  margin-left: -11px
+  margin-top: -100px
+  max-height: 364px
 
 .carousel
   max-width: 582px
