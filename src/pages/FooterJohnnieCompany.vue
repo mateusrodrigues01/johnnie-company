@@ -97,7 +97,7 @@ div.footerr.text-white.q-pa-lg.lt-md
 
     .row.justify-center.items-center.q-pt-xl
       .col-auto
-        img(src="/images/pwa.png", alt="Logo Johnnie Company" style="max-width: 80px")
+        img(src="/images/johnnie-logo.png", alt="Logo Johnnie Company" style="max-width: 80px")
 
     .row.justify-center.q-mb-md.q-pt-sm
       .col-auto
@@ -115,7 +115,7 @@ div.footerr.text-white.q-pa-lg.lt-md
 
 .row.lt-md
   .col.bg-primary.q-pa-sm
-    img(src="/images/representanteItau.png", alt="Logo Johnnie Company" style="max-width: 180px")
+    img(src="/images/johnnie-logoimages/.png", alt="Logo Johnnie Company" style="max-width: 180px")
 
 </template>
 
@@ -127,6 +127,7 @@ export default defineComponent({
   data() {
     return {
       currentYear: new Date().getFullYear(),
+      onClick: '',
     };
   },
 

@@ -20,28 +20,37 @@ div.features-content
         swipeable
         animated
         control-color="white"
-        navigation
         infinite
+        navigation
         :autoplay="7500"
-        padding
         arrows
         class="bg-primary text-white shadow-1 rounded-borders"
       )
+
+        //- q-carousel-slide.column.no-wrap.flex-center.no-padding(
+        //-   name="style"
+        //-   img-src="videos/johnniegif.gif"
+        //- )
+
         q-carousel-slide(name="style").column.no-wrap.flex-center.no-padding
           video(width="582" height="364" controls autoplay)
             source(src="videos/video1.mp4" type="video/mp4")
+            source(src="videos/johnnievideo.ogv" type="video/ogv")
 
         q-carousel-slide(name="tv").column.no-wrap.flex-center.no-padding
           video(width="582" height="364" controls autoplay)
             source(src="videos/video1.mp4" type="video/mp4")
+            source(src="videos/johnnievideo.ogv" type="video/ogv")
 
         q-carousel-slide(name="layers").column.no-wrap.flex-center.no-padding
           video(width="582" height="364" controls autoplay)
             source(src="videos/video1.mp4" type="video/mp4")
+            source(src="videos/johnnievideo.ogv" type="video/ogv")
 
         q-carousel-slide(name="map").column.no-wrap.flex-center.no-padding
           video(width="582" height="364" controls autoplay)
             source(src="videos/video1.mp4" type="video/mp4")
+            source(src="videos/johnnievideo.ogv" type="video/ogv")
 
   .text-h3.text-bold.title.text-center(style="padding-top: 150px") Afinal, Marketing sem dados <br/> é como dirigir com os olhos fechados!
 

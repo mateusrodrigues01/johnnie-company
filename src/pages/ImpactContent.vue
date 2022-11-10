@@ -24,6 +24,7 @@ export default defineComponent({
   name: 'PageIndex',
   setup() {
     return {
+      onClick: '',
     };
   },
   methods: {
