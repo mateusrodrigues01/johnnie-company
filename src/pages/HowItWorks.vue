@@ -12,9 +12,11 @@ div.q-pb-xl(style="padding-top: 100px; padding-bottom: 100px;")
         q-card-section
           .text-h6.text-bold Atração
         q-card-section
-          .text-body1.text-weight-light A primeira etapa do processo de Marketing Digital é atração. <br/><br/>Atrair pessoas para seus canais de vendas é indispensável para gerar novas vendas. As principais fontes de tráfego que trabalhamos são:
-
-        q-card-section
+          //- .text-body1.text-weight-light A primeira etapa do processo de Marketing Digital é atração. <br/><br/>Atrair pessoas para seus canais de vendas é indispensável para gerar novas vendas. As principais fontes de tráfego que trabalhamos são:
+          .text-body1.text-weight-light
+            | Esse é o primeiro passo no processo de marketing digital. <br/><br/>Atrair pessoas para o seu funil de vendas é fundamental para gerar novas vendas.
+            | As principais fontes de tráfego com as quais trabalhamos são:<br/><br/> Google ADS, Facebook ADS, Instagram ADS, LinkedIn ADS, Google SEO
+        //- q-card-section
           .row.q-gutter-sm
             img.rounded-borders(src="images/marketing/ok/face-ads.png" style="width:50px;")
             img.rounded-borders(src="images/marketing/ok/google-ads.png" style="width:50px;")
@@ -28,7 +30,10 @@ div.q-pb-xl(style="padding-top: 100px; padding-bottom: 100px;")
         q-card-section
           .text-h6.text-bold Atenção
         q-card-section
-          .text-body1.text-weight-light Após atrair as pessoas até os seus canais (sejam eles on ou offline), você precisa fazer com que elas se interessem pelo que você tem a oferecer. <br/><br/> Conquistar a atenção dos seus clientes em potencial é o próximo caminho para gerar vendas e conversões.
+          //- .text-body1.text-weight-light Após atrair as pessoas até os seus canais (sejam eles on ou offline), você precisa fazer com que elas se interessem pelo que você tem a oferecer. <br/><br/> Conquistar a atenção dos seus clientes em potencial é o próximo caminho para gerar vendas e conversões.
+          .text-body1.text-weight-light
+            | Depois de levar as pessoas ao seu canal (seja online ou offline), você precisa fazer com que elas se interessem pelo que você tem a oferecer. <br/><br/>
+            | Chamar a atenção de clientes em potencial é o próximo caminho para gerar vendas e conversões.
         //- q-card-section
           .row.q-gutter-sm
             img.rounded-borders(src="images/marketing/ok/face-ads.png" style="width:50px;")
