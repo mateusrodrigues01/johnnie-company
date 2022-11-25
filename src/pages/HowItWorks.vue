@@ -12,10 +12,20 @@ div.q-pb-xl(style="padding-top: 100px; padding-bottom: 100px;")
         q-card-section
           .text-h6.text-bold Atração
         q-card-section
-          .text-body1.text-weight-light A primeira etapa do processo de Marketing Digital é atração. <br/><br/>Atrair pessoas para seus canais de vendas é indispensável para gerar novas vendas. As principais fontes de tráfego que trabalhamos são:
-        q-card-section
-          img(src="icons/ads/atracao/facebookads.jpg" style="width:50px;")
+          .text-body1.text-weight-light
+            //- | A primeira etapa do processo de Marketing Digital é atração. <br/><br/>
+            //- | Atrair pessoas para seus canais de vendas é indispensável para gerar novas vendas.
+            //- | As principais fontes de tráfego que trabalhamos são:
 
+            | Esse é o primeiro passo no processo de marketing digital. <br/><br/>Atrair pessoas para o seu funil de vendas é fundamental para gerar novas vendas.
+            | As principais fontes de tráfego com as quais trabalhamos são:<br/><br/> Google ADS, Facebook ADS, Instagram ADS, LinkedIn ADS, Google SEO
+
+        //- q-card-section
+          .row.q-gutter-sm
+            img.rounded-borders(src="images/marketing/ok/face-ads.png" style="width:50px;")
+            img.rounded-borders(src="images/marketing/ok/google-ads.png" style="width:50px;")
+            img.rounded-borders(src="images/marketing/ok/google-seo.png" style="width:50px;")
+            img.rounded-borders(src="images/marketing/ok/insta-ads.png" style="width:50px;")
     .col-auto
       q-card.mini-card.shadow-6.cursor-pointer(v-ripple @click="$router.push('meta-ads')")
         q-card-section
@@ -24,9 +34,18 @@ div.q-pb-xl(style="padding-top: 100px; padding-bottom: 100px;")
         q-card-section
           .text-h6.text-bold Atenção
         q-card-section
-          .text-body1.text-weight-light Após atrair as pessoas até os seus canais (sejam eles on ou offline), você precisa fazer com que elas se interessem pelo que você tem a oferecer. <br/><br/> Conquistar a atenção dos seus clientes em potencial é o próximo caminho para gerar vendas e conversões.
-        q-card-section
-          img(src="icons/ads/atracao/facebookads.jpg" style="width:50px;")
+          .text-body1.text-weight-light
+            //- | Após atrair as pessoas até os seus canais (sejam eles on ou offline),
+            //- | você precisa fazer com que elas se interessem pelo que você tem a oferecer. <br/><br/>
+            //- | Conquistar a atenção dos seus clientes em potencial é o próximo caminho para gerar vendas e conversões.
+            | Depois de levar as pessoas ao seu canal (seja online ou offline), você precisa fazer com que elas se interessem pelo que você tem a oferecer. <br/><br/>
+            | Chamar a atenção de clientes em potencial é o próximo caminho para gerar vendas e conversões.
+        //- q-card-section
+          .row.q-gutter-sm
+            img.rounded-borders(src="images/marketing/ok/face-ads.png" style="width:50px;")
+            img.rounded-borders(src="images/marketing/ok/google-ads.png" style="width:50px;")
+            img.rounded-borders(src="images/marketing/ok/google-seo.png" style="width:50px;")
+            img.rounded-borders(src="images/marketing/ok/insta-ads.png" style="width:50px;")
 
     .col-auto
       q-card.mini-card.shadow-6.cursor-pointer(v-ripple @click="$router.push('develop-web')")
@@ -35,9 +54,18 @@ div.q-pb-xl(style="padding-top: 100px; padding-bottom: 100px;")
         q-card-section
           .text-h6.text-bold Conversão
         q-card-section
-          .text-body1.text-weight-light Agora que você tem a atenção de sua audiência, o próximo passo é transforma-la em clientes.  <br/><br/>Para isso, utilizamos estratégias que vão desde a consolidação de sua equipe de vendas, até a criação de um script de comercial.
-        q-card-section
-          img(src="icons/ads/atracao/facebookads.jpg" style="width:50px;")
+          .text-body1.text-weight-light
+            | Agora que você conquistou a atenção do seu público, o próximo passo é convertê-los em clientes. <br/><br/>
+            | Para isso, utilizamos diversas estratégias desde a integração da sua força de vendas até a criação de um roteiro de negócios.
+
+            //- | Agora que você tem a atenção de sua audiência, o próximo passo é transforma-la em clientes.  <br/><br/>
+            //- | Para isso, utilizamos estratégias que vão desde a consolidação de sua equipe de vendas, até a criação de um script de comercial.
+        //- q-card-section
+          .row.q-gutter-sm
+            img.rounded-borders(src="images/marketing/ok/face-ads.png" style="width:50px;")
+            img.rounded-borders(src="images/marketing/ok/google-ads.png" style="width:50px;")
+            img.rounded-borders(src="images/marketing/ok/google-seo.png" style="width:50px;")
+            img.rounded-borders(src="images/marketing/ok/insta-ads.png" style="width:50px;")
 
     .col-auto
       q-card.mini-card.shadow-6.cursor-pointer(v-ripple @click="$router.push('develop-web')")
@@ -46,9 +74,18 @@ div.q-pb-xl(style="padding-top: 100px; padding-bottom: 100px;")
         q-card-section
           .text-h6.text-bold Retenção
         q-card-section
-          .text-body1.text-weight-light Após a conversão, começa a jornada para fazer com que este cliente compre novamente e com isso é possível ampliar o seu LTV cada vez mais. <br/><br/>Reter clientes e usuários é tão importante quanto fechar novas vendas.
-        q-card-section
-          img(src="icons/ads/atracao/facebookads.jpg" style="width:50px;")
+          .text-body1.text-weight-light
+            | Uma vez convertido, a jornada começa a trazer aquele cliente de volta para comprar, aumentando potencialmente o seu LTV cada vez mais. <br/><br/>
+            | Reter clientes e usuários é tão importante quanto fechar novas vendas.
+            //- | Após a conversão, começa a jornada para fazer com que este cliente compre novamente
+            //- | e com isso é possível ampliar o seu LTV cada vez mais. <br/><br/>
+            //- | Reter clientes e usuários é tão importante quanto fechar novas vendas.
+        //- q-card-section
+          .row.q-gutter-sm
+            img.rounded-borders(src="images/marketing/ok/face-ads.png" style="width:50px;")
+            img.rounded-borders(src="images/marketing/ok/google-ads.png" style="width:50px;")
+            img.rounded-borders(src="images/marketing/ok/google-seo.png" style="width:50px;")
+            img.rounded-borders(src="images/marketing/ok/insta-ads.png" style="width:50px;")
 
 </template>
 

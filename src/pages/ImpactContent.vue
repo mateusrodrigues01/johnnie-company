@@ -9,7 +9,8 @@
         .col-md-6.col-xs-12
           p.text-white-50.header-destaque-laranja MAXIMIZE SEUS
           p.text-white-110 RESULTADOS
-          p.text-h6.text-weight-light.text-white Gere o máximo retorno de suas campanhas online com suporte proativo fornecido por nossos especialistas em publicidade online.
+          //- p.text-h6.text-weight-light.text-white Gere o máximo retorno de suas campanhas online com suporte proativo fornecido por nossos especialistas em publicidade online.
+          p.text-h6.text-weight-light.text-white Quanto mais você anuncia, mais você se potencializa, mais você cresce e gera resultados extraordinários.
 
           q-btn.saber-mais.q-px-xl.q-py-md.q-mt-xl(icon='check', label='Saber Mais', @click='onClick')
 

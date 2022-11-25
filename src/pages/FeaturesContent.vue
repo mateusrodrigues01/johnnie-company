@@ -7,13 +7,13 @@ div.features-content
       .text-h4.title.text-bold Agência digital que te
       .text-h4.title.text-bold ajuda ir mais longe
       .text-h6.text-weight-light.title.q-mt-lg Somos uma equipe dinâmica de pessoas <br/>  criativas, inovação e especialista em marketing.
-      .text-h6.text-weight-light.title.q-mt-md Aperte o Play ao lado e confira você mesmo! <span><i class="fas fa-circle-play"></i></span>
+
       .row.q-mt-lg
         img(src="images/rocket.png" style="max-width: 250px")
 
     .col
-      img.img-carousel(src="images/notebook.png", alt="")
-      img.bi-gif(src="videos/bi.gif", alt="")
+      img.img-carousel(src="images/notebook.png", alt="notebook")
+      img.bi-gif(src="videos/trafegopago.gif", alt="bi-gif")
       //- video(width="582" height="364" controls autoplay)
       //-   source(src="videos/johnnievideo.mp4" type="video/mp4")
       //-   source(src="videos/johnnievideo.ogv" type="video/ogg")
@@ -57,7 +57,8 @@ div.features-content
             source(src="videos/johnnievideo.mp4" type="video/mp4")
             source(src="videos/johnnievideo.ogv" type="video/ogg")
 
-  .text-h3.text-bold.title.text-center(style="padding-top: 150px") Afinal, Marketing sem dados <br/> é como dirigir com os olhos fechados!
+  .text-h3.text-bold.title.text-center(style="padding-top: 150px") "Afinal, Marketing sem dados <br/> é como dirigir com os olhos fechados!"
+  .text-center.text-weight-light.text-italic Dan Zarrella
 
 </template>
 
