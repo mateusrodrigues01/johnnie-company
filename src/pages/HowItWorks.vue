@@ -65,7 +65,7 @@ div.q-pb-xl(style="padding-top: 100px; padding-bottom: 100px;")
         q-card-section
           .text-body1.text-weight-light
             | Uma vez convertido, a jornada começa a trazer aquele cliente de volta para comprar, aumentando potencialmente o seu LTV cada vez mais. <br/><br/>
-            | Reter clientes e usuários é tão importante quanto fechar novas vendas.
+            | Reter clientes e usuários é tão importante quanto fechar novas vendas..
             //- | Após a conversão, começa a jornada para fazer com que este cliente compre novamente
             //- | e com isso é possível ampliar o seu LTV cada vez mais. <br/><br/>
             //- | Reter clientes e usuários é tão importante quanto fechar novas vendas.
