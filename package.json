@@ -1,10 +1,6 @@
 {
   "name": "johnnie-company",
-<<<<<<< HEAD
   "version": "0.0.8",
-=======
-  "version": "0.0.7",
->>>>>>> f31fa4b08bf95343a65713f803f1f13535cef93e
   "description": "Marketing sem dados é como dirigir com os olhos fechados",
   "productName": "Johnnie Company",
   "author": "mateus <mateus@solsoft.com.br>",
