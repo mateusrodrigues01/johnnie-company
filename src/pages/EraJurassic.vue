@@ -3,7 +3,7 @@
 div(style="margin-top: 150px; margin-bottom: 150px")
   .row.justify-center.items-center.q-gutter-x-xl
     .col-auto
-      .text-h3.text-bold.text-grey-9.text-center Saia da Era Jurrássica
+      .text-h3.text-bold.text-grey-9.text-center Saia da Era Jurássica
       .text-h4.text-wight-light.text-grey-9.text-center.q-mt-xl(style="line-height:50px") E deixe o digital fazer o trabalho<br/> por você!
       .text-h6.text-wight-light.text-grey-9.text-center.q-mt-xl Bora fazer um Call e tirar todas as<br/> suas dúvidas!
 
