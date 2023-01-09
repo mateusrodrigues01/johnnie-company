@@ -1,6 +1,6 @@
 <template lang="pug">
 
-div.q-pb-xl(style="padding-top: 100px; padding-bottom: 100px;")
+div.q-pb-xl(style="padding-top: 200px; padding-bottom: 100px;")
 
   .text-h3.text-bold.text-grey-9.text-center(style="padding-bottom: 100px") Como Funciona?
 

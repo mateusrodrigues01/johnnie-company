@@ -6,14 +6,15 @@ div.features-content
     .col-5(style="padding-left: 150px; margin-right: 100px")
       .text-h4.title.text-bold Agência digital que te
       .text-h4.title.text-bold ajuda ir mais longe
-      .text-h6.text-weight-light.title.q-mt-lg Somos uma equipe dinâmica de pessoas <br/>  criativas, inovação e especialista em marketing.
+      //- .text-h6.text-weight-light.title.q-mt-lg Somos uma equipe dinâmica de pessoas <br/>  criativas, inovação e especialista em marketing.
+      .text-h6.text-weight-light.title.q-mt-md Descubra o Método Johnnie Company que já ajudou milhares de empresas a dobrarem de tamanho.
 
       .row.q-mt-lg
         img(src="images/rocket.png" style="max-width: 250px")
 
     .col
       img.img-carousel(src="images/notebook.png", alt="notebook")
-      img.bi-gif(src="videos/trafegopago.gif", alt="bi-gif")
+      img.bi-gif(src="videos/howitsworks.gif", alt="bi-gif")
       //- video(width="582" height="364" controls autoplay)
       //-   source(src="videos/johnnievideo.mp4" type="video/mp4")
       //-   source(src="videos/johnnievideo.ogv" type="video/ogg")

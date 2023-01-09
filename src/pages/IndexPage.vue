@@ -13,6 +13,8 @@ q-page.teste
 
   FocusOnBusiness
 
+  OurClients
+
   HowItWorks
 
   WorldOfPossibilities
@@ -32,6 +34,7 @@ import MiniCards from 'src/pages/MiniCards.vue';
 import DifferentResults from 'src/pages/DifferentResults.vue';
 import StepByStep from 'src/pages/StepByStep.vue';
 import FocusOnBusiness from 'src/pages/FocusOnBusiness.vue';
+import OurClients from 'src/pages/OurClients.vue';
 import HowItWorks from 'src/pages/HowItWorks.vue';
 import WorldOfPossibilities from 'src/pages/WorldOfPossibilities.vue';
 import EraJurassic from 'src/pages/EraJurassic.vue';
@@ -46,6 +49,7 @@ export default defineComponent({
     DifferentResults,
     StepByStep,
     FocusOnBusiness,
+    OurClients,
     HowItWorks,
     WorldOfPossibilities,
     EraJurassic,
